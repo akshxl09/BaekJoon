@@ -1,4 +1,5 @@
 answer = set()
+
 N = int(input())
 num = list(input().replace(" ", ""))
 
@@ -12,3 +13,21 @@ def solution(left, right, i):
 
 solution(0, 0, 0)
 print(sum(map(int, num))- len(answer) + 1)
+
+'''
+N = int(input())
+num = list(input().replcae(" ", ""))
+
+left = []
+right = []
+
+for i in range(N):
+    left.append(num[i])
+    for j in range(N):
+        
+        
+
+
+        if i != j:
+            left.append(num[i])
+'''
